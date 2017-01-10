@@ -1,0 +1,29 @@
+html {
+    background: #A7ADC9;
+    width: 900px;
+    margin: auto;
+}
+
+.banner {
+    background: #262B44;
+    width: 100%;
+    height: 100px;
+}
+
+.container {
+    background: #7483C8;
+    width: 100%;
+    height: 1200px;
+    margin: auto;
+}
+
+.profPic {
+    border: 1px black solid;
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    float: right;
+    margin-right: 20%;
+}
