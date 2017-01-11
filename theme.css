@@ -1,38 +1,85 @@
-html {
-    background: #A7ADC9;
+body, html {
+    margin: 0;
+    padding: 0;
+    color: #1D2238;
+    background: white;
+    font-family: Monda;
+}
+
+.wrapper {
     width: 900px;
-    margin: auto;
-}
-
-.banner {
-    background: #262B44;
-    width: 100%;
-    height: 100px;
-}
-
-.container {
-    background: #7483C8;
-    width: 100%;
-    height: 1200px;
-    margin: auto;
-}
-
-.leftSide {
-    width: 29%;
-    height: 100%;
-    float: left;
-    border-right: 1px black solid;
-}
-
-.profPic {
-    width: 200px;
-    height: 200px;
-    display: block;
+    background: #EFEFEF;
     margin: 0 auto;
 }
 
-.rightSide {
-    width: 70%;
-    height: 100%;
-    float: right;
+.nav {
+    height: 60px;
+    background: #1D2238;
+    color: #EFEFEF;
+    padding: 5px 10px;
 }
+
+.leftTitle {
+    height: 250px;
+    width: 300px;
+    background: #EFEFEF;
+    float: left;
+    padding: 5px auto;
+}
+
+.rightTitle {
+    height: 250px;
+    width: 600px;
+    background: #EFEFEF;
+    float: right;
+    padding: 5px auto;
+    text-align: center;
+}
+
+#profile-desc {
+    padding: 5px;
+}
+
+.profpic {
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.leftBar {
+    width: 300px;
+    background: #EFEFEF;
+    float: left;
+    padding: 5px auto auto 10px;
+}
+
+#skillset {
+    text-align: center;
+    padding: 20px;
+}
+
+.rightBar {
+    width: 600px;
+    background: #EFEFEF;
+    float: right;
+    padding: 5px 10px auto auto;
+}
+
+#job-title {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.job-desc {
+    margin-left: 40px;
+
+}
+
+.footer {
+    clear: both;
+    background: #EFEFEF;
+}
+
+color: #1D2238;
+color: #EFEFEF;
