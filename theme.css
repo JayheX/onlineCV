@@ -6,79 +6,36 @@ body, html {
     font-family: Monda;
 }
 
+.navigation {
+    background: red;
+    height: 90px;
+}
+
 .wrapper {
-    width: 900px;
-    background: #EFEFEF;
-    margin: 0 auto;
+    background: #844242;
 }
 
-.nav {
-    height: 60px;
-    background: #1D2238;
-    color: #EFEFEF;
-    padding: 5px 10px;
+.contact {
+    background: #6AC161;
 }
 
-.leftTitle {
-    height: 250px;
-    width: 300px;
-    background: #EFEFEF;
-    float: left;
-    padding: 5px auto;
+.left {
+    background: #4C62AA;
 }
 
-.rightTitle {
-    height: 250px;
-    width: 600px;
-    background: #EFEFEF;
-    float: right;
-    padding: 5px auto;
-    text-align: center;
+.right {
+    background: #6F7BA4;
 }
 
-#profile-desc {
-    padding: 5px;
+#profPic {
+    background: #6D8021;
 }
 
-.profpic {
-    height: 200px;
-    width: 200px;
-    margin-left: 50px;
-    margin-top: 25px;
-}
+.profPic {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
 
-.leftBar {
-    width: 300px;
-    background: #EFEFEF;
-    float: left;
-    padding: 5px auto auto 10px;
-}
-
-#skillset {
-    text-align: center;
-    padding: 20px;
-}
-
-.rightBar {
-    width: 600px;
-    background: #EFEFEF;
-    float: right;
-    padding: 5px 10px auto auto;
-}
-
-#job-title {
-    margin-left: 20px;
-    margin-bottom: 0;
-}
-
-.job-desc {
-    margin-left: 40px;
-
-}
-
-.footer {
-    clear: both;
-    background: #EFEFEF;
 }
 
 color: #1D2238;
