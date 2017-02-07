@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    color: #1D2238;
+    background: white;
+    font-family: Monda;
+}
+
+.navigation {
+    background: red;
+    height: 90px;
+}
+
+.wrapper {
+    background: #844242;
+}
+
+.contact {
+    background: #6AC161;
+}
+
+.left {
+    background: #4C62AA;
+}
+
+.right {
+    background: #6F7BA4;
+}
+
+#profPic {
+    background: #6D8021;
+}
+
+.profPic {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+
+}
+
+color: #1D2238;
+color: #EFEFEF;
