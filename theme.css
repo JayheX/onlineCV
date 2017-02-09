@@ -1,42 +1,42 @@
-body, html {
+body {
     margin: 0;
     padding: 0;
     color: #1D2238;
-    background: white;
-    font-family: Monda;
-}
-
-.navigation {
-    background: red;
-    height: 90px;
+    background: #EFEFEF;
 }
 
 .wrapper {
-    background: #844242;
+    background: #EFEFEF;
+    font-family: 'Open Sans', Serif;
 }
 
-.contact {
-    background: #6AC161;
+.navigation {
+    background: #1D2238;
+    color: #EFEFEF;
 }
 
-.left {
-    background: #4C62AA;
+.navbar a {
+    color: #EFEFEF;
 }
 
-.right {
-    background: #6F7BA4;
-}
-
-#profPic {
-    background: #6D8021;
+.navbar a:hover {
+    color: red;
+    background-color: #1D2238 !important;
 }
 
 .profPic {
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 20%;
-
 }
 
-color: #1D2238;
-color: #EFEFEF;
+.left {
+    border-right: 1px #1D2238 solid;
+}
+
+.workTitle {
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: square;
+}
