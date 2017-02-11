@@ -47,7 +47,7 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<a href="www.google.fi" class="blogLink">Read more...</a>
+				<a href="http://www.google.fi" class="blogLink">Read more...</a>
 				<p></p>
 			</div>
 			<div class="blogText">
@@ -64,7 +64,7 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<a href="www.yle.fi" class="blogLink">Read more...</a>
+				<a href="http://www.yle.fi" class="blogLink">Read more...</a>
 				<p></p>
 			</div>
 			<div class="blogText">
@@ -81,19 +81,19 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<a href="www.hs.fi" class="blogLink">Read more...</a>
+				<a href="http://www.hs.fi" class="blogLink">Read more...</a>
 				<p></p>
 			</div>
 			<p></p>
-			<a href="#">ARCHIVE</a>
+			<a href="http://www.mtv3.fi">ARCHIVE</a>
 			<p></p>
 		</div>
 
 		<div class="col-md-3" id="archive">
-			<h4><b>ARKISTO</b></h4>
+			<h4><b>ALL POSTS</b></h4>
 			<ul class="blogArchive">
-				<li v-for="link in linkkiLista">
-					<a v-bind:href="link.link">{{link.text}}</a>
+				<li v-for="item in linkkiLista">
+					<a v-bind:href="item.url">{{item.text}}</a>
 				</li>
 			</ul>
 		</div>

@@ -11,5 +11,11 @@
 	margin-bottom: 1em;
 }
 
+.blogArchive {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+}
+
 #1D2238;
 #EFEFEF;
