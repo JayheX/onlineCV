@@ -3,6 +3,11 @@ body {
     padding: 0;
     color: #1D2238;
     background: #EFEFEF;
+
+}
+
+a:hover {
+	color: red !important;
 }
 
 .wrapper {

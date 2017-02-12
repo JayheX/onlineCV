@@ -6,9 +6,13 @@
 	border-bottom: 1px dashed #1D2238;
 }
 
+.blogText h5 {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
 .blogText h3 {
 	text-align: center;
-	margin-bottom: 1em;
 }
 
 .blogArchive {

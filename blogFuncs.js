@@ -9,6 +9,7 @@ Fa&&(void 0===window.ontransitionend&&void 0!==window.onwebkittransitionend&&(Ba
 
 
 var links = document.getElementsByClassName("blogLink");
+var pituus = links.length
 var texts = document.getElementsByTagName("h3");
 var archive = new Vue({
 	el: '#archive',
@@ -17,9 +18,17 @@ var archive = new Vue({
 		}]
 	}
 })
-for (var i = 0; i < links.length; i++) {
-	var hr = links[i].getAttribute('href');
-	var otsikko = texts[i].textContent;
-	archive.linkkiLista.unshift({url: hr, text: otsikko});
-}
 
+if (pituus < 10) {
+	for (var i = 0; i <= pituus; i++) {
+		var hr = links[i].getAttribute('href');
+		var otsikko = texts[i].textContent;
+		archive.linkkiLista.unshift({url: hr, text: otsikko});
+	}
+} else {
+	for (var i = 0; i <= 9; i++) {
+		var hr = links[i].getAttribute('href');
+		var otsikko = texts[i].textContent;
+		archive.linkkiLista.unshift({url: hr, text: otsikko});
+	}
+}
